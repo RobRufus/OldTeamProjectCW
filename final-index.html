@@ -73,20 +73,13 @@
     width:150px;
   }
   #game-desc p {
-    width:800px;
-    margin:0;
-    padding:0;
-    position: absolute;
-    left:25%;
+    margin: 0 auto;
     padding-top: 8%;
     color:white;
+    text-align: center;
   }
   #player-model p {
-    width:800px;
-    margin:0;
-    padding:0;
-    position: absolute;
-    left:25%;
+    margin:0 auto;
     color:white;
     padding-top:350px;
   }
@@ -97,50 +90,50 @@
     width:100%;
   }
   @media (min-width:768px) {
-  #home {
-    position: absolute;
-    left: 80%;
-    display: flex;
-    align-items: center;
-    color: #7D7D7D;
-    position: absolute;
-    top:30%;
+    #home {
+      position: absolute;
+      left: 80%;
+      display: flex;
+      align-items: center;
+      color: #7D7D7D;
+      position: absolute;
+      top:30%;
+    }
+    #blog {
+      position: absolute;
+      left: 85%;
+      display: flex;
+      align-items: center;
+      color: #7D7D7D;
+      position: absolute;
+      top:30%;
+    }
+    #about {
+      position: absolute;
+      left: 90%;
+      display: flex;
+      align-items: center;
+      color: #7D7D7D;
+      position: absolute;
+      top:30%;
+    }
   }
-  #blog {
-    position: absolute;
-    left: 85%;
-    display: flex;
-    align-items: center;
-    color: #7D7D7D;
-    position: absolute;
-    top:30%;
+  .featurette-divider-2, .featurette-divider-3 {
+    border:0;
+    border-top: 5px solid #eee;
+    width:100%;
   }
-  #about {
-    position: absolute;
-    left: 90%;
-    display: flex;
-    align-items: center;
-    color: #7D7D7D;
-    position: absolute;
-    top:30%;
+  .featurette-divider-1 {
+    margin:0;
+    padding:0;
+    border:0;
+    border-top: 5px solid #eee;
+    width:100%;
   }
-}
-.featurette-divider-2, .featurette-divider-3 {
-  border:0;
-  border-top: 5px solid #eee;
-  width:100%;
-}
-.featurette-divider-1 {
-  margin:0;
-  padding:0;
-  border:0;
-  border-top: 5px solid #eee;
-  width:100%;
-}
-footer {
-  text-align: center;
-  color:white;
-}
+  footer {
+    text-align: center;
+    color:white;
+  }
 </style>
 </head>
 
@@ -179,23 +172,28 @@ footer {
     <h1> Kalderon Awaits You. Reclaim Your Planet Now!</h1>
     <button id="inst-btn"> Install </button>
   </section>
+    <div class="container">
   <hr class="featurette-divider-1"/>
   <section id="game-desc">
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
   </section>
   <hr class="featurette-divider-2"/>
-<section id="player-model">
-  <img src="pics/Player-Front.jpg"; width="200px"; height="200px";  style="position: absolute; left: 45%; top: 1350px; background-color:#7d7d7d;"/>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-</section>
-<hr class="featurette-divider-3"/>
+    <section id="player-model">
+      <img src="pics/Player-Front.jpg"; width="200px"; height="200px";  style="position: absolute; left: 43%; top: 1350px; background-color:#7d7d7d;"/>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </section>
+  <hr class="featurette-divider-3"/>
+</div>
 </main>
 <footer>
   © 2019 - 2020 CAPRE, Inc
 </footer>
+</div>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <!-- Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
+
